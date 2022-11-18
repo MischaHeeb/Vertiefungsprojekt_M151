@@ -5,7 +5,7 @@
 <html>
 <head runat="server">
     <title></title>
-    <link href="style.css" rel="stylesheet" />
+    <link href="MasterpageStyle.css" rel="stylesheet" type="text/css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>

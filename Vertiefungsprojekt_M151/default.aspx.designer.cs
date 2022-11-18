@@ -114,33 +114,6 @@ namespace Vertiefungsprojekt_M151
         protected global::System.Web.UI.WebControls.RegularExpressionValidator regexValidator2;
 
         /// <summary>
-        /// desktop control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton desktop;
-
-        /// <summary>
-        /// web control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton web;
-
-        /// <summary>
-        /// phone control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton phone;
-
-        /// <summary>
         /// geschaeftsbedingung control.
         /// </summary>
         /// <remarks>

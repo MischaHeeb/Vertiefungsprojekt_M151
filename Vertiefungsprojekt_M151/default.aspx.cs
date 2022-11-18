@@ -34,11 +34,6 @@ namespace Vertiefungsprojekt_M151
 
                 Session["Email"] = email.Text;
                 Session["Geburtsjahr"] = geburtsjahr.Text;
-                Dictionary<String, bool> radioBtns = new Dictionary<string, bool>();
-                radioBtns.Add("Desktop Applikationen", desktop.Checked);
-                radioBtns.Add("Web-Applikationen", web.Checked);
-                radioBtns.Add("Phone App", phone.Checked);
-                Session["Interessen"] = radioBtns;
             }
         }
 
@@ -53,5 +48,8 @@ namespace Vertiefungsprojekt_M151
         {
             args.IsValid = geschaeftsbedingung.Checked;
         }
+
+
+
     }
 }

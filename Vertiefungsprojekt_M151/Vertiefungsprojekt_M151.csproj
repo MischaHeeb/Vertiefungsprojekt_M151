@@ -67,9 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="style.css" />
+    <Content Include="MasterpageStyle.css" />
     <Content Include="Web.config" />
-    <Content Include="defaultt.aspx" />
     <Content Include="default.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -81,13 +80,6 @@
       <DependentUpon>Masterpage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="defaultt.aspx.cs">
-      <DependentUpon>defaultt.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="defaultt.aspx.designer.cs">
-      <DependentUpon>defaultt.aspx</DependentUpon>
-    </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

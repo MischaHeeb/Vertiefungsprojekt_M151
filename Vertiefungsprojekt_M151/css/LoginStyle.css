@@ -1,0 +1,41 @@
+﻿
+.input-section {
+    width: 25%;
+    margin: auto;
+}
+
+div.title {
+    text-align: center;
+}
+
+.input-section div {
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+.input-section .input-field {
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 20px;
+    padding: 0 5px;
+}
+
+.input-section div .error-message {
+    line-height: 0;
+    margin-top: 5px;
+    vertical-align: baseline;
+}
+
+.input-section .register-btn input{
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: limegreen;
+    color: white;
+    border: 0px solid transparent;
+    cursor: pointer;
+}
+
+.input-section .register-btn input:hover {
+    filter: brightness(110%);
+}

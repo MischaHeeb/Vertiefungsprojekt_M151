@@ -1,0 +1,49 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+
+#Header {
+    margin: 25px 15px;
+}
+
+#Header h1 span {
+    border: 1px solid black;
+}
+
+
+#Menu {
+    border: 1px solid black;
+    padding: 15px 15px;
+    margin: 15px auto;
+    width: 85%;
+    background-color: #BABABA;
+}
+
+#Menu .btn {
+    padding: 15px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#Footer {
+    box-sizing: border-box;
+    padding: 25px 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #7A8287;
+}
+
+.interactable {
+    display: inline;
+}
+
+.interactable:hover {
+    filter: brightness(110%);
+}

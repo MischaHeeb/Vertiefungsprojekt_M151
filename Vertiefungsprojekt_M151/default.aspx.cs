@@ -40,7 +40,7 @@ namespace Vertiefungsprojekt_M151
         protected void Registrieren(object sender, EventArgs e)
         {
             if (!Page.IsValid) return;
-            Response.Redirect("Confirmation.aspx");
+            Response.Redirect("regions.aspx");
 
         }
 

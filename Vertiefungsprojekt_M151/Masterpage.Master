@@ -5,7 +5,7 @@
 <html>
 <head runat="server">
     <title></title>
-    <link href="MasterpageStyle.css" rel="stylesheet" type="text/css" />
+    <link href="css/MasterpageStyle.css?v=@Guid.NewGuid().ToString()" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -15,7 +15,21 @@
             <h1><span>GBS NorthWind</span></h1>
         </div>
 
-        <div id="Menu">Menu</div>
+        <hr />
+
+        <div id="Menu">
+            <div class="interactable">
+                <asp:Button class="button" Text="Login" CssClass="btn" OnClick="OnClickLogin" runat="server" />
+            </div>
+            <div class="interactable">
+                <asp:Button class="button" Text="Regionenverwaltung" CssClass="btn" OnClick="OnClickRegions" runat="server" />
+            </div>
+            <div class="interactable">
+                <asp:Button class="button" Text="Impressum" CssClass="btn" OnClick="OnClickInpressum" runat="server" />
+            </div>
+           
+            
+        </div>
 
         <div id="Content">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

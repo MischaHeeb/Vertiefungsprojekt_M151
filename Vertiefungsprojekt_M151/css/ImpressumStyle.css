@@ -1,0 +1,15 @@
+﻿
+.information-container p {
+    text-align: center;
+    font-size: large;
+}
+
+.information-container {
+    padding-top: 100px;
+}
+
+.information-container p.name {
+    font-size: X-large;
+    font-weight: bold;
+    padding-bottom: 5px;
+}

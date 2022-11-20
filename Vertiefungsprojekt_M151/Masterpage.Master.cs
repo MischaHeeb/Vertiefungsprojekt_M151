@@ -13,5 +13,21 @@ namespace Vertiefungsprojekt_M151
         {
 
         }
+
+        protected void OnClickLogin(object sender, EventArgs e)
+        {
+            Response.Redirect("default.aspx");
+        }
+
+
+        protected void OnClickRegions(object sender, EventArgs e)
+        {
+            Response.Redirect("regions.aspx");
+        }
+
+        protected void OnClickInpressum(object sender, EventArgs e)
+        {
+            Response.Redirect("impressum.aspx");
+        }
     }
 }

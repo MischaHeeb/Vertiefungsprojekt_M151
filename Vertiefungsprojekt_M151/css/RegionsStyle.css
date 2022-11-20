@@ -1,0 +1,53 @@
+﻿.controls {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.controls .Input {
+    height: 30px;
+    border-radius: 20px;
+    padding: 0px 5px;
+}
+
+.controls .Button {
+    height: 30px;
+    border-radius: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.controls .Button.add {
+    background-color: green;
+    color: white;
+}
+
+.controls .Button.delete {
+    background-color: darkred;
+    color: white;
+}
+
+.controls .Button:hover {
+    filter: brightness(120%);
+}
+
+.GridView {
+    width: 85%;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.GridView a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background-color: #646464;
+    color: White;
+    border: none 0px transparent;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+}

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Vertiefungsprojekt_M151.WebForm2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Masterpage.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="Vertiefungsprojekt_M151.WebForm2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="css/LoginStyle.css?v=@Guid.NewGuid().ToString()" rel="stylesheet" />
 </asp:Content>
@@ -7,12 +7,9 @@
         <h1>Registrieren</h1>
     </div>
 
-        <asp:ValidationSummary ID="validationSummery1" HeaderText="Folgende Fehler sind aufgetreten" runat="server" 
-            ForeColor="Red" DisplayMode="BulletList" Enabled="false" />
-
 
         <section class="input-section">
-            <asp:Label Text="*Erforderlich" Font-Size="X-Small" runat="server" />
+            <asp:Label Text="*Erforderlich" ForeColor="Red" Font-Size="X-Small" runat="server" />
             <div>
                 <p>*Vorname:</p>
                 <asp:TextBox ID="vorname" CssClass="input-field" runat="server" />

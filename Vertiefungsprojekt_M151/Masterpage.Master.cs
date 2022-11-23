@@ -16,7 +16,7 @@ namespace Vertiefungsprojekt_M151
 
         protected void OnClickLogin(object sender, EventArgs e)
         {
-            Response.Redirect("default.aspx");
+            Response.Redirect("login.aspx");
         }
 
 
